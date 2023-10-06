@@ -1,0 +1,40 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main h1{
+    text-align: center;
+    font-size: 60px;
+}
+.container{
+    border: solid rgb(99, 122, 129) ;
+    padding: 10px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row button{
+    width: 90px;
+    height: 80px;
+    margin: 3px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(164, 199, 210);
+    font-size: 28px;
+}
+.container input{
+    width: 345px;
+    height: 60px;
+    margin: 4px;
+    border: solid rgb(164, 199, 210) 4px;
+    border-radius: 10px;
+    font-size: 40px;
+    padding: 0 15px 0 15px;
+    text-align: right;
+}
